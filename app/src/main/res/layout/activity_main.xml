@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:id="@+id/insbtn"
+        android:text="Select Image from Gallery"
+        />
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="700px" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:id="@+id/imageid"
+        android:hint="Enter id"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter template name"
+        android:minHeight="50dp"
+        android:id="@+id/imagetemp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="200sp"
+            android:layout_height="60sp"
+            android:id="@+id/savebtn"
+            android:text="Save it into Database"
+            />
+        <Button
+            android:layout_width="120sp"
+            android:layout_height="60sp"
+            android:id="@+id/delbtn"
+            android:text="Delete"
+            android:layout_marginLeft="16dp"
+            />
+    </LinearLayout>
+</LinearLayout>
